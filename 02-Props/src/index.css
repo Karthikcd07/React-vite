@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+    color: red;
+}
+html,
+body{
+    height:100%;
+    width: 100%;
+}
+
+body{
+    background-color: lightblue;
+}
+.parent{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards{
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #333;
+  
+}
+.cards img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.cards p{
+    margin: 20px 0;
+
+}
+.cards button{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
