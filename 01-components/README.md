@@ -21,10 +21,12 @@ This folder demonstrates the basic concept of **Components in React**.
 -CSS
 
 ## 📂 Folder Structure
+```
 src/
 ├── components/
 ├── App.jsx
 └── main.jsx
+```
 
 ## ▶️ Run Locally
 ```bash
